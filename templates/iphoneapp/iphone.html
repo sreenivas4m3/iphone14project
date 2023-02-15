@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>iphone-14 mobiles details</title>
+    <link rel="stylesheet" href="{%static "css/iphone14.css"%}">
+
+</head>
+<body>
+<h1>i-phone14 mobile details</h1>
+<hr/>
+{% if iphone14list %}
+    <table border="1" >
+        <caption>iphone-14 mobiles details</caption>
+        <thead>
+            <th>name</th>
+            <th>version</th>
+            <th>maincamera</th>
+            <th>rearcamera</th>
+            <th>battery</th>
+            <th>display</th>
+            <th>memory</th>
+        <tbody>
+            {% for apple in iphone14list %}
+                <tr>
+                    <td>{{ apple.name }}</td>
+                    <td>{{ apple.version }}</td>
+                    <td>{{ apple.maincamera }}</td>
+                    <td>{{ apple.rearcamera }}</td>
+                    <td>{{ apple.battery }}</td>
+                    <td>{{ apple.display }}</td>
+                     <td>{{ apple.memory }}</td>
+                </tr>
+            {% endfor %}
+    </tbody>
+            {% else %}
+                <p>NO IPHONE RECORDS FOUNDED...</p>
+    {% endif %}
+        </thead>
+    </table>
+<hr/>
+    <div id="div1">
+        <div id="div2">
+            <div class="indiv">
+                <img src="{%static 'images/image1.jpg'%}" alt="image1.jpg" />
+            </div>
+            <div class="indiv">
+                <img src="{%static 'images/image1.jpg'%}" alt="image1.jpg" />
+            </div>
+            <div class="indiv">
+                <img src="{%static 'images/image1.jpg'%}" alt="image1.jpg" />
+            </div>
+
+</body>
+</html>

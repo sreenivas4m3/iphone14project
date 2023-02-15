@@ -1,0 +1,54 @@
+body{
+    background-color:lightcyan;
+}
+
+h1{
+    text-align: center;
+    color:red;
+    border:5px solid brown;
+}
+table{
+    color:black;
+    background-color:lightblue;
+    width: 1300px;
+    height: 250px;
+    border: 1px solid red;
+    margin:5px;
+
+}
+caption{
+    color: darkorange;
+    height: 50px;
+    border: 2.5px solid green;
+    margin: 10px;
+    font-size: 35px;
+}
+#div1{
+            border: 2px Solid Red;
+            height:200px;
+        }
+        #div2{
+            border:2px Solid green;
+            height:99%;
+        }
+        .indiv{
+            border:1px Solid Maroon;
+            float:left;
+            width:24.5%;
+            height:135px;
+            margin:1px;
+            margin-top: 5px;
+        }
+img{
+            border:1px dotted blue;
+            width:900%;
+            height:10px;
+            margin:3px;
+            margin-left:8px;
+        }
+
+img:hover {
+             border: 4px Solid Blue;
+             width: 95%;
+             height: 130px;
+}
