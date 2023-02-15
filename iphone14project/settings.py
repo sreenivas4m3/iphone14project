@@ -83,10 +83,10 @@ DATABASES = {
         'default':{
             'ENGINE':'django.db.backends.mysql',
             'NAME':'iphone14db',
-            'USER':'root',
-            'PASSWORD':'root',
-            'PORT':'3306',
-            'HOST':'localhost',
+            'USER':'sreenivas4m3',
+            'PASSWORD':'root@123',
+            'PORT':'',
+            'HOST':'sreenivas4m3.mysql.pythonanywhere-services.com',
         }
 }
 
