@@ -82,7 +82,7 @@ DATABASES = {
     #}
         'default':{
             'ENGINE':'django.db.backends.mysql',
-            'NAME':'iphone14db',
+            'NAME':'sreenivas4m3$iphone14db',
             'USER':'sreenivas4m3',
             'PASSWORD':'root@123',
             'PORT':'',
